@@ -9,4 +9,4 @@ cd("_site");
 await $`git init`;
 await $`git add -A`;
 await $`git commit -m "build: GitHub Pages"`;
-await $`git push -f git@github.com:reeseschultz/reese.codes.git master:gh-pages`;
+await $`git push -f git@github.com:a-childs-encyclopedia/encyclopedia.deno.dev.git master:gh-pages`;
